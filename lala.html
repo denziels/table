@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BELAJAR MEMBUAT TABEL</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 60%;
+            margin: 20px auto;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #999999;
+            color: white;
+        }
+        caption {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>BELAJAR MEMBUAT TABEL</caption>
+        <tr>
+            <th rowspan="2">No</th>
+            <th rowspan="2">NPM</th>
+            <th rowspan="2">Nama</th>
+            <th colspan="2">Nilai</th>
+        </tr>
+        <tr>
+            <th>UTS</th>
+            <th>UAS</th>
+        </tr>
+        <tr>
+            <td>1.</td>
+            <td>06.100.001</td>
+            <td style="text-align:left;">Amrin A. Angkasa</td>
+            <td>70</td>
+            <td>80</td>
+        </tr>
+        <tr>
+            <td>2.</td>
+            <td>06.100.002</td>
+            <td style="text-align:left;">Beni B. Bernardi</td>
+            <td>70</td>
+            <td>80</td>
+        </tr>
+    </table>
+</body>
+</html>
